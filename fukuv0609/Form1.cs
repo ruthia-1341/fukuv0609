@@ -21,7 +21,7 @@ namespace fukuv0609
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("堀 朱莉");
-            //timer1.Enabled = False;
+            timer1.Enabled = false;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
