@@ -20,8 +20,17 @@ namespace fukuv0609
 
         private void label1_Click(object sender, EventArgs e)
         {
-            timer1.Enabled = false;
-            label1.Text = ("stop");
+            if (label1.Text == ("stop"))
+            {
+                timer1.Enabled = true;
+                label1.Text = ("go");
+            }
+            else
+            {
+                timer1.Enabled = false;
+                label1.Text = ("stop");
+            }
+            
             MessageBox.Show("堀 朱莉");
             
         }
