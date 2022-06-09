@@ -12,6 +12,7 @@ namespace fukuv0609
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
@@ -20,6 +21,7 @@ namespace fukuv0609
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("堀 朱莉");
+            //timer1.Enabled = False;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -36,6 +38,26 @@ namespace fukuv0609
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Text = ("↓");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            label1.Text = ("→");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            label1.Text = ("←");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = ("↑");
         }
     }
 }
